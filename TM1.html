@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+</head>
+<body>
+   
+</body>
+<script>
+    document.getElementsByTagName("head")[0].appendChild
+    (document.createElement("title"))
+
+    document.getElementsByTagName("title")[0].innerText = "Tugas Mandiri 1 M tsani"
+
+    var judul = document.createElement("h3")
+
+    judul.textContent = "form login (tsani)"
+
+    document.body.appendChild(judul)
+
+    var text = document.createElement("input")
+
+    text.setAttribute("type" ,"text")
+
+    text.setAttribute("placeholder", "username")
+
+    document.body.appendChild(text);
+
+    document.write("<br> <br>")
+
+    var pw = document.createElement("input")
+
+    pw.setAttribute("type","password")
+
+    document.body.appendChild(pw);
+
+    document.write("<br><br>")
+
+    var btn = document.createElement("button")
+
+    btn.innerText = "Login"
+
+    document.body.appendChild(btn)
+
+
+</script>
+</html>
